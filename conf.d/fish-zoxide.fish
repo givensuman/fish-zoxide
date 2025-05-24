@@ -18,7 +18,7 @@ function _fish_zoxide_install --on-event fish-zoxide_install
 end
 
 function _fish_zoxide_uninstall --on-event fish-zoxide_uninstall
-    set --erase zoxide
+    set --erase zoxide_cmd_override
 end
 
 function _fish_zoxide_update --on-event fish-zoxide_update
