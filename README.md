@@ -12,9 +12,9 @@ fisher install givensuman/fish-zoxide
 
 ### Usage
 
-Initializes zoxide with necessary functions and completions for Fish.
+Initializes `zoxide` with necessary functions and completions for Fish.
 
-Set the `zoxide_cmd_override` environment variables to override the default zoxide command.
+Set the `zoxide_cmd_override` environment variables to override the default `zoxide` command.
 
 ```shell
 # replace `cd` with `zoxide`
