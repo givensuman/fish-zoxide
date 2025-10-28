@@ -6,7 +6,7 @@ if not command -q zoxide
 end
 
 if set -q zoxide_cmd_override
-    set cmd 'zoxide init --cmd $zoxide_cmd_override fish'
+    set cmd "zoxide init --cmd $zoxide_cmd_override fish"
 else
     set cmd 'zoxide init fish'
 end
