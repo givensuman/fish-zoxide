@@ -1,3 +1,7 @@
+<div align="center">
+  <img alt="fish-eza" src="./assets/logo.png" width="200" />
+</div>
+
 # fish-zoxide
 
 A port of [ohmyzsh/zoxide](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/zoxide) for the Fish shell.
