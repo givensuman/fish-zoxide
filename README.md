@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="fish-eza" src="./assets/logo.png" width="200" />
+  <img alt="fish-zoxide" src="./assets/logo.png" height="200" />
 </div>
 
 # fish-zoxide
@@ -16,14 +16,7 @@ fisher install givensuman/fish-zoxide
 
 ### Usage
 
-Initializes `zoxide` with necessary functions and completions for Fish.
-
-Set the `zoxide_cmd_override` environment variable to override the default `zoxide` command.
-
-```shell
-# replace `cd` with `zoxide`
-set -gx zoxide_cmd_override cd
-```
+Replaces `cd` with `zoxide`, and sets up necessary initialization. To run the normal `cd` command, use `rcd`.
 
 ### Requirements
 
@@ -31,4 +24,4 @@ Just requires [zoxide](https://github.com/ajeetdsouza/zoxide)!
 
 ### License
 
-[MIT](../LICENSE)
+[MIT](./LICENSE)
